@@ -76,8 +76,8 @@
 
 #slider .carousel-caption h5 {
   text-align: center;
-  font-size: 2em;
-  text-shadow: #000 2px 2px;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 5px black;
 }
 
 .btn {
@@ -117,7 +117,7 @@
     bottom: 15em;
   }
   #slider .carousel-caption h5 {
-    font-size: 2em;
+    font-size: 2.5em;
     text-shadow: 3px 3px 8px black;
   }
   #slider .btn {
