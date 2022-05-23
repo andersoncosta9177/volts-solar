@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Volts Solar</title>
+
+  <!-- bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- fontst google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400&display=swap"
+    rel="stylesheet">
+
+
+  <!-- link css ext -->
+  <link rel="stylesheet" href="./style/style.css">
+
+  <!-- icons bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+  <!-- favcon -->
+  <link rel="shortcut icon" href="./favcon/pngegg.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+    <div class="container py-3">
+      <a class="navbar-brand mb-2" href="index.html">
+        <img src="./img/logo/logo7.jpg" alt=""  class="img-fluid"/>
+        <span style="color: rgb(92, 92, 241);">Volts </span><span style="color: orange;">solar</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+        aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-items">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projetos.html">Projetos</a>
+          </li>
+       
+          <li class="nav-item">
+            <a class="nav-link" href="beneficios.html">Benefícios</a>
+          </li>
+          <li class="nav-item">
+            <a  id="whats"  class="btn  btn-success text-white" href="https://api.whatsapp.com/send?phone=5561991171568" target="_blank">  <i class="bi bi-whatsapp">whatsapp</i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- SLIDER -->
+  <div class="container" id="slider-container">
+    <div id="slider" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide-to="3"
+        aria-label="Slide 4"
+      ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item  ">
+          <img src="./img/slider/fundo1.png" class="d-block w-100" alt="" />
+          <div class="carousel-caption">
+            <h5>Enquanto o sol brilha, voçê economiza!</h5>
+            
+          </div>
+        </div>
+        <div class="carousel-item active ">
+          <img src="img/slider/fundo2.jpg" class="d-block w-100" alt="" />
+          <div class="carousel-caption">
+            <h5>Energia limpa, inesgotável, e renovável</h5>
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider/fundo4.jpg" class="d-block w-100" alt="" />
+          <div class="carousel-caption">
+            <h5>
+              Energia solar e o investimento que aumenta a valorização do seu imóvel
+            </h5>
+            
+          </div>
+        </div>
+ 
+        <div class="carousel-item ">
+          <img src="img/slider/fundo3.jpg" class="d-block w-100" alt="" />
+          <div class="carousel-caption">
+            <h5>Use sem moderação</h5>
+           
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="prev"
+      >
+        <i class="bi bi-chevron-compact-left"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="next"
+      >
+        <i class="bi bi-chevron-compact-right"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+    <!-- mini banners -->
+    <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <i class="bi bi-house" primary-color"></i>
+            <div class="card-body">
+              <h5 class="card-title" primary-color>Projetos completos</h5>
+              <p class="card-text secondary-color">Trabalhamos com instalações em casas, condomínios residenciais e comerciais</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <i class="bi bi-cash-coin primary-color"></i>
+            <div class="card-body">
+              <h5 class="card-title" primary-color>Preços acessiveis</h5>
+              <p class="card-text secondary-color">Financiamos pelo Banco do brasil, Sicoob, Santander e BV financeira</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <i class="bi bi-award-fill primary-color"></i>
+            <div class="card-body">
+              <h5 class="card-title" primary-color> Garantia Intelbras </h5>
+              <p class="card-text secondary-color">Trabalhamos com os melhores equipamentos da atualidade</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- destaqus -->
+
+
+
+
+
+  <!-- INFO -->
+  <div class="container" id="info-container">
+    <div class="col-12">
+      <h2 class="title primary-color">Detalhes importantes</h2>
+      <p class="subtitle secondary-color">
+        <!-- Saiba mais sobre a nossa equipe -->
+      </p>
+    </div>
+    <div class="col-12">
+      <div class="row">
+        <div class="col-12 col-md-5 " id="info-banner">
+          <img src="./img/destaque.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="title primary-color">Estes dados fazem a diferença</h2>
+              <p class="subtitle secondary-color">Veja algumas informações importantes da Volts solar</p>
+            </div>
+          </div>
+
+          <div class="col-12" id="info-numbers">
+            <div class="row">
+              <div class="col-4">
+                <h3 class="primary-color">2</h3>
+                <p class="secondary-color">Anos de experiençia</p>
+
+              </div>
+              <div class="col-4">
+                <h3 class="primary-color">34</h3>
+                <p class="secondary-color">Projetos executados</p>
+
+              </div>
+              <div class="col-4">
+                <h3 class="primary-color">56</h3>
+                <p class="secondary-color">Clientes</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <!-- <a href="" class="btn btn-dark">Saber mais</a> -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footers -->
+
+  <footer class="container-fluid bg-dark-color" id="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12" id="footer-top">
+
+          <div class="row justify-content-between">
+            <div class="col-4">
+              <h2>Volts Solar</h2>
+            </div>
+            <div class="col-4" id="social-icons">
+              <a href="https://www.facebook.com/Volts-solar-107823608491768" target="_blank">   <i class="bi bi-facebook"></i></a>
+               <a href="https://www.instagram.com/volts__solar/" target="_blank">  <i class="bi bi-instagram"></i></a>
+  
+              <a href="mailto:solarvolts11@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=5561991171568" target="_blank">  <i class="bi bi-whatsapp"></i></a>
+            
+
+
+            </div>
+          </div>
+        </div>
+
+        <!-- footer details -->
+        <div class="col-12" id="footer-details">
+          <div class="row">
+            <!-- <div class="col-12 col-md-4" id="news-container">
+              <h4>Fique por dentro das novidades</h4>
+              <p class="secondary-color"> Solicite seu orçamento agora</p>
+              <form action="">
+                <div class="mb-3">
+                  <input type="email" class="form-control" name="" id="" placeholder="Digite seu email">
+
+                </div>
+                <button class="btn btn-dark"> Enviar </button>
+              </form>
+            </div> -->
+           
+
+             <div class="col-12 col-md-6" id="contact-container">
+               <h4>Formas de contato</h4>
+               <p class="secondary-color ">+55 (61) 991171568</p>
+               <p class="secondary-color">solarvolts11@gmail.com</p>
+             </div>
+
+             <div class="col-12 col-md-6" id="links-container">
+               <div class="row">
+                 <h4 class="">Voçê pode estar procurando por:</h4>
+                 <div class="col-6">
+                   <ul class="list-unstyled">
+                     <li><a class="secondary-color" href="index.html">Home</a></li>
+                     <li><a class="secondary-color" href="projetos.html">Projetos</a></li>
+                     <li><a class="secondary-color" href="beneficios.html">Benefícios</a></li>
+
+                   </ul>
+                 </div>
+
+               
+               </div>
+             </div>
+
+
+
+          </div>
+       
+        </div>
+        <div class="col-12" id="footer-bottom">
+             <div class="row justify-content-between">
+               <div class="col-12 col-md-3">
+                 <p class="secondary-color">Volts solar &copy; 2022</p>
+               </div>
+               <div class="col-12 col-md-3">
+                <p class="secondary-color">Realizamos seu projeto <i class="bi bi-heart"></i></p>
+              </div>
+
+             </div>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
